@@ -5,7 +5,6 @@ if (module.hot) {
 }
 
 import 'babel-polyfill';
-const $ = require('jquery');
 
 // styles
 import '../styles/index.scss';
