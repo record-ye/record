@@ -2,7 +2,6 @@
 
 if (module.hot) {
   module.hot.accept();
-  location.reload();
 }
 
 import 'babel-polyfill';
