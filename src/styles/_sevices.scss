@@ -1,0 +1,21 @@
+section#services {
+    padding: 5rem 0;
+    background-color: $third-color;
+    color: $main-text-color;
+    div#services-header {
+        text-align: center;
+        text-transform: uppercase;
+        h3 {
+            font-weight: 600;
+        }
+    }
+    div#services-holder {
+        width: 100%;
+    }
+    hr {
+        width: 100%;
+        border-top: .1rem solid $main-text-color;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+}
