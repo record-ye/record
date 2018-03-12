@@ -1,4 +1,38 @@
 @import './_colors.scss';
-nav#mainNavBar {
+nav#main-nav-bar {
     background-color: $nav-when-top;
+    min-height: 4rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    a.navbar-brand {
+        background-image: url('../images/logo_small.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        height: 2.4rem;
+        width: 2.4rem;
+        padding: .2rem;
+    }
+    div.navbar-collapse {
+        height: 4rem;
+        ul.navbar-nav {
+            height: 100%;
+            li.navbar-item {
+                padding: 0 1rem;
+                height: 100%;
+                a {
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: $main-text-color;
+                    font-weight: 300;
+                    &.active {
+                        color: $main-color;
+                        border-bottom: 3px solid $main-color;
+                    }
+                }
+            }
+        }
+    }
 }

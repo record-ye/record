@@ -1,3 +1,23 @@
-header {
+header#main-header {
     background-image: url('../images/bg.jpeg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 64px;
+    position: relative;
+    color: $main-text-color;
+    div.front-text-holder {
+        height: calc(100vh - 64px);
+        display: flex;
+        div.image {
+            height: 7rem;
+            width: 90%;
+            background-image: url('../images/logo_big.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            object-fit: cover;
+            margin-bottom: 2rem;
+        }
+    }
 }
