@@ -1,4 +1,9 @@
 @import '../../node_modules/normalize.css/normalize.css';
-@import '../../node_modules/bootstrap/scss/bootstrap.scss';
 @import './_colors.scss';
-body {}
+@import './_nav.scss';
+@import './_header.scss';
+body {
+    background-color: $main-bg-color;
+    height: 2000px;
+    margin-top: 56px; // for the fixed navbar
+}
