@@ -29,7 +29,7 @@ nav#main-nav-bar {
                     font-weight: 300;
                     &.active {
                         color: $main-color;
-                        border-bottom: 3px solid $main-color;
+                        border-bottom: .2rem solid $main-color;
                     }
                 }
             }
