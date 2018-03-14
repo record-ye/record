@@ -1,0 +1,20 @@
+section#portfolio {
+    position: relative;
+    padding: 5rem 0;
+    color: $main-text-color;
+    background-color: $sec-body-color;
+    background-image: url('../images/bg2.jpg');
+    background-attachment: fixed;
+    div#portfolio-header {
+        text-align: center;
+        text-transform: uppercase;
+        h3 {
+            font-weight: 600;
+        }
+    }
+    div#portfolio-text {
+        p {
+            margin-bottom: 2rem;
+        }
+    }
+}
