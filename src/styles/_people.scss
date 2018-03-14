@@ -1,11 +1,28 @@
 section#people {
     position: relative;
     padding: 5rem 0;
+    color: $sec-text-color;
     div#people-header {
         text-align: center;
         text-transform: uppercase;
         h3 {
             font-weight: 600;
+        }
+    }
+    div#people-row div {
+        div.image-holder {
+            background-image: url('../images/cl1.jpg');
+            height: 9rem;
+            width: 9rem;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: top center;
+        }
+        div.people-text {
+            padding-left: 1rem;
+            h6 {
+                font-weight: 400;
+            }
         }
     }
 }
