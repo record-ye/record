@@ -1,0 +1,23 @@
+section#team {
+    padding: 5rem 0;
+    color: $sec-text-color;
+    div#team-header {
+        text-align: center;
+        text-transform: uppercase;
+        h3 {
+            font-weight: 600;
+        }
+    }
+    div#team-text {
+        p {
+            margin-bottom: 2rem;
+        }
+    }
+    div#team-holder-row {
+        div.img-holder {
+            background-image: url('../images/team1.jpg');
+            height: 6rem;
+            ;
+        }
+    }
+}

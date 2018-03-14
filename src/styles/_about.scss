@@ -1,6 +1,5 @@
 section#about {
     padding: 5rem 0;
-    color: $sec-text-color;
     div#about-header {
         text-align: center;
         text-transform: uppercase;
@@ -20,13 +19,15 @@ section#about {
             background-position: center center;
             background-size: cover;
             border-radius: .2rem;
-            background-image: url('../images/ab1.jpg');
-        }
-        &:nth-of-type(2) {
-            background-image: url('../images/ab2.jpg');
-        }
-        &:last-of-type {
-            background-image: url('../images/ab3.jpg');
+            &:first-of-type {
+                background-image: url('../images/ab1.jpg');
+            }
+            &:nth-of-type(2) {
+                background-image: url('../images/ab2.jpg');
+            }
+            &:last-of-type {
+                background-image: url('../images/ab3.jpg');
+            }
         }
     }
 }
