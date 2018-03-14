@@ -1,0 +1,18 @@
+section#clinets {
+    padding: 2.5rem 0;
+    background-color: $sec-body-color;
+    div {
+        div.img-holder {
+            height: 7.5rem;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        & div.img-holder:nth-of-type(1) {
+            background-image: url('../images/clogo1.png');
+        }
+        & div.img-holder:nth-of-type(2) {
+            background-image: url('../images/clogo2.png');
+        }
+    }
+}
