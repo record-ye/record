@@ -1,7 +1,6 @@
 section#services {
     padding: 5rem 0;
-    background-color: $third-color;
-    color: $main-text-color;
+    background-color: $sec-body-color;
     div#services-header {
         text-align: center;
         text-transform: uppercase;
@@ -11,11 +10,27 @@ section#services {
     }
     div#services-holder {
         width: 100%;
+        margin-top: 1rem;
     }
     hr {
         width: 100%;
-        border-top: .1rem solid $main-text-color;
-        margin-left: 6rem;
-        margin-right: 6rem;
+        border-top: .1rem solid $third-color;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    div {
+        &.icon-holder {
+            margin-right: 1rem;
+            svg {
+                color: $main-color;
+                font-size: 1.8rem;
+            }
+        }
+        h4 {
+            font-size: 1.2em;
+            padding-bottom: .8rem;
+            font-weight: 400;
+        }
+        p {}
     }
 }
