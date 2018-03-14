@@ -6,6 +6,10 @@
 @import './_about.scss';
 @import './_sevices.scss';
 @import './_team.scss';
+::selection {
+    background-color: $main-color;
+}
+
 body {
     background-color: $body-color;
     height: 2000px;
