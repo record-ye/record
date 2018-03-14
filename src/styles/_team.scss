@@ -16,8 +16,10 @@ section#team {
     div#team-holder-row {
         div.img-holder {
             background-image: url('../images/team1.jpg');
-            height: 6rem;
-            ;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: 20rem;
         }
     }
 }
