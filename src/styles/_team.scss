@@ -14,12 +14,33 @@ section#team {
         }
     }
     div#team-holder-row {
-        div.img-holder {
-            background-image: url('../images/team1.jpg');
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center center;
-            height: 20rem;
+        div {
+            div.img-holder {
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center center;
+                height: 20rem;
+                margin-bottom: 1rem;
+                border-radius: .2rem;
+                filter: grayscale(1);
+                transition: all 400ms;
+                &:hover {
+                    filter: grayscale(0);
+                    transform: rotateX(1deg);
+                }
+            }
+            &:first-of-type div.img-holder {
+                background-image: url('../images/team1.jpg');
+            }
+            &:nth-of-type(2) div.img-holder {
+                background-image: url('../images/team2.jpg');
+            }
+            &:nth-of-type(3) div.img-holder {
+                background-image: url('../images/team3.jpg');
+            }
+            &:last-of-type div.img-holder {
+                background-image: url('../images/team1.jpg');
+            }
         }
     }
 }
