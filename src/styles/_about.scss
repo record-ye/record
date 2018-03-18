@@ -1,6 +1,7 @@
 section#about {
     background-color: $main-body-color;
     padding: 5rem 0;
+    
     div#about-header {
         text-align: center;
         text-transform: uppercase;
@@ -20,6 +21,12 @@ section#about {
             background-position: center center;
             background-size: cover;
             border-radius: .2rem;
+            margin: 5px;
+            @media (min-width: 576px) {
+                & {
+                    margin: 0px;                    
+                }
+            }
             &:first-of-type {
                 background-image: url('../images/ab1.jpg');
             }
