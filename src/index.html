@@ -281,12 +281,29 @@
         </div>
 
       </div>
-      <div class="row col-md-12">
-        Some Portfolio images
-        <br />
-        <br />
-        <br />
-        <br />
+      <div class="row justify-content-center">
+        <div id="selector" class="col-md-7">
+          <ul>
+            <li class="active" id="all-selector">All</li>
+            <li id="photos-selector">Photos</li>
+            <li id="videos-selector">Videos</li>
+            <li id="films-selector">Films</li>
+          </ul>
+        </div>
+        <div class="col-md-12" id="portfolio-grid" class="d-flex">
+          <div class="grid-item photos all">
+            <p class="lead"> this is text photo </p>
+          </div>
+          <div class="grid-item photos all">
+            <p class="lead"> this is text photo </p>
+          </div>
+          <div class="grid-item videos all">
+            <p class="lead"> this is text video </p>
+          </div>
+          <div class="grid-item films all">
+            <p class="lead"> this is text film </p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -374,10 +391,96 @@
   </section>
   <!-- END PEOPLE -->
 
+  <!-- START PHOTOS -->
+
+  <section id="photos">
+    <div class="container">
+      <div class="row align-items-center flex-column">
+
+        <div id="photos-header" class="col-md-4">
+          <h3>Some Photos</h3>
+          <span class="line"></span>
+        </div>
+
+      </div>
+      <div class="row justify-content-center" id="photos-row">
+        <div class="col-md-9" id="photos-holder">
+          <ul>
+            <li>
+
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- END PHOTOS -->
+
   <!-- START CONTACT -->
   <section id="contact">
     <div class="container">
       <div class="row">
+        <div class="col-md-4">
+          <div class="img-holder">
+
+          </div>
+
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, atque harum aliquam velit numquam natus sit repellat repudiandae
+            quia, facilis id nobis recusandae dicta ducimus eveniet. Esse enim autem optio.
+          </p>
+
+        </div>
+
+        <div class="col-md-4">
+          <div>
+            <h4>Stay in touch</h4>
+            <p class="lead">Send us some notes</p>
+          </div>
+          <form class="needs-validation" novalidate>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <input type="text" class="form-control" placeholder="Name" required>
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-12">
+                <textarea rows="4" class="form-control mt-3" placeholder="Message" required></textarea>
+              </div>
+            </div>
+            <button id="submit-button" class="btn btn-primary mb-2 mt-3" type="submit">Send</button>
+          </form>
+        </div>
+
+        <div class="col-md-4">
+          <div>
+            <h4>More infos</h4>
+          </div>
+          <div>
+            <p class="lead ">Phone: 01/123456</p>
+            <p class="lead">Email: info@record-ye.com</p>
+            <p class="lead">Location: Alzubayri Street, Some Address, Sann'a, Yemen.</p>
+            <div>
+              <i class="fab fa-2x fa-facebook mr-3"></i>
+              <i class="fab fa-2x fa-instagram mr-3"></i>
+              <i class="fab fa-2x fa-twitter mr-3"></i>
+              <i class="fab fa-2x fa-youtube mr-3"></i>
+              <i class="fab fa-2x fa-whatsapp"></i>
+            </div>
+          </div>
+          <p class="lead ">All content in this site is copyrighed to Record Prodaction.</p>
+          <p id="creator">Built By
+            <a href="https://facebook.com/almo7aya">Ali Almohaya</a>
+          </p>
+        </div>
 
       </div>
     </div>
@@ -390,6 +493,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 </body>
 
 </html>
