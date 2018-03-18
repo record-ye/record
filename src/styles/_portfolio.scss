@@ -5,6 +5,8 @@ section#portfolio {
     background-color: $sec-body-color;
     background-image: url('../images/bg2.jpg');
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     div#portfolio-header {
         text-align: center;
@@ -54,7 +56,7 @@ section#portfolio {
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
-            margin: 2px;
+            margin: 1px;
             &:nth-of-type(1) {
                 background-image: url('../images/1.jpg');
             }
