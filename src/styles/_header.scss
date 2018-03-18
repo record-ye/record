@@ -11,6 +11,7 @@ header#home{
     div.front-text-holder {
         height: calc(100vh - 64px);
         display: flex;
+        position: relative;
         div.image {
             height: 7rem;
             width: 90%;

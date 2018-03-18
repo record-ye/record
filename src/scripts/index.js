@@ -28,6 +28,10 @@ $(function () {
     } else {
       $('#main-nav-bar').removeClass('active');
     }
+
+  // big logo paralax 
+  $('.front-text-holder').css('top', -(window.pageYOffset/3.4));
+
   });
 
 
