@@ -1,4 +1,13 @@
 
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 nav#main-nav-bar {
     background-color: $nav-when-top;
     min-height: 4rem;
@@ -19,11 +28,34 @@ nav#main-nav-bar {
     }
     div.navbar-collapse {
         height: 4rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        min-height: 100vh;
+        animation: fadeIn 300ms;
+        background-color: $nav-when-active;
+        @media (min-width: 576px) {
+            & {
+                position: static;
+                width: auto;
+                min-height: auto;
+            }
+        }
         ul.navbar-nav {
             height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            @media (min-width: 576px) {
+                & {
+                    flex-direction: row;
+                    justify-content: space-around;
+                }
+            }
             li.navbar-item {
                 padding: 0 1rem;
-                height: 100%;
+                // height: 100%;
                 a {
                     transition: all 600ms;
                     height: 100%;

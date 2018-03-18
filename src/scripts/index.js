@@ -23,7 +23,6 @@ $(function () {
 
 
   $(document).on('scroll', function () {
-    console.log(window.pageYOffset);
     if (window.pageYOffset >= ($('#home').offset().top + $('#home').height() + 10)) {
       $('#main-nav-bar').addClass('active');
     } else {
@@ -40,12 +39,18 @@ $(function () {
   });
 
   $('#selector li').on('click', function () {
-    alert();
     $grid.isotope({
       filter: '.' + $(this).text().toLowerCase()
     });
     $(this).addClass('active').siblings().removeClass('active');
   });
 
+  // when click on the nav click the button
+
+  $('ul.navbar-nav').on('click', function () {
+    if($('.navbar-toggler').is(':visible')) {
+      $('.navbar-toggler').click();
+    }
+  });
 
 });
