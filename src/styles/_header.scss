@@ -1,28 +1,12 @@
 header#main-header {
     height: 100vh;
-    // background-image: url('../images/bg.jpeg');
+    background-image: url('../images/bg.jpeg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
     padding-top: 64px;
     position: relative;
     color: $main-text-color;
-
-    &::before {
-        content: ' ';
-        display: block;
-        background-image: url('../images/bg.jpeg');
-        background-position: center;
-        background-size: cover;
-        height: 100vh;
-        width: 100vw;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        position: fixed;
-        z-index: -10; // This is pretty important.
-      }
       
     div.front-text-holder {
         height: calc(100vh - 64px);
