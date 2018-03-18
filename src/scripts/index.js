@@ -6,12 +6,15 @@ if (module.hot) {
 
 import 'babel-polyfill';
 
+
 // styles
 import '../styles/index.scss';
 
 
 $(function () {
   // jQuery is ready
+
+  const scroll = new SmoothScroll('a[href*="#"]');
 
   // when the images are loaded
   $(window).on('load', function () {
@@ -21,7 +24,7 @@ $(function () {
 
   $(document).on('scroll', function () {
     console.log(window.pageYOffset);
-    if (window.pageYOffset >= ($('#main-header').offset().top + $('#main-header').height() + 35)) {
+    if (window.pageYOffset >= ($('#home').offset().top + $('#home').height() + 10)) {
       $('#main-nav-bar').addClass('active');
     } else {
       $('#main-nav-bar').removeClass('active');
