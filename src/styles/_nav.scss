@@ -4,6 +4,10 @@ nav#main-nav-bar {
     min-height: 4rem;
     padding-top: 0;
     padding-bottom: 0;
+    transition: background-color 500ms;
+    &.active {
+        background-color: $nav-when-active;
+    }
     a.navbar-brand {
         background-image: url('../images/logo_small.png');
         background-repeat: no-repeat;
