@@ -18,7 +18,7 @@ $(function () {
 
   // when the images are loaded
   $(window).on('load', function () {
-    $('#loader').remove();
+    $('div#loader').removeClass('loading');
   });
 
 

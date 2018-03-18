@@ -19,3 +19,19 @@ span.line {
 ::selection {
     background-color: $main-color;
 }
+
+div#loader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;    
+    background-color: $main-body-color;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: 1031; // on the nav bar
+    transition: all 400ms;
+
+    &.loading {
+        opacity: 1;
+    }
+}
