@@ -40,6 +40,7 @@ $(function () {
   });
 
   $('#selector li').on('click', function () {
+    alert();
     $grid.isotope({
       filter: '.' + $(this).text().toLowerCase()
     });
