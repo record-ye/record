@@ -8,7 +8,7 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "webpack --config webpack-prod.config.js --colors",
-    "dev": "webpack-dev-server --open --config webpack-dev.config.js --watch --colors"
+    "dev": "webpack-dev-server --open --config webpack-dev.config.js --watch --colors --hot --host 0.0.0.0"
   },
   "eslintConfig": {
     "env": {
