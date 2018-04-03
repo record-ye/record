@@ -8,7 +8,6 @@ section#portfolio {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-
     div#portfolio-header {
         text-align: center;
         text-transform: uppercase;
@@ -29,7 +28,7 @@ section#portfolio {
             display: flex;
             justify-content: center;
             li {
-                border: 1px solid $sec-color;
+                border: .1rem solid $sec-color;
                 padding: .7rem 1rem;
                 font-size: 1.25rem;
                 font-weight: 300;
@@ -37,7 +36,7 @@ section#portfolio {
                 transition: 300ms all;
                 cursor: pointer;
                 &.active {
-                    border-bottom: 3px solid $main-color;
+                    border-bottom: .3rem solid $main-color;
                 }
             }
             @media (min-width: 576px) {
@@ -57,8 +56,8 @@ section#portfolio {
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
-            margin: 1px;
-            border-radius: .2rem;            
+            margin: .1rem;
+            border-radius: .2rem;
             &:nth-of-type(1) {
                 background-image: url('../images/1.jpg');
             }
@@ -89,7 +88,7 @@ section#portfolio {
         @media (min-width: 576px) {
             div.grid-item {
                 width: 23%;
-                margin: 5px;
+                margin: .5rem;
             }
         }
     }

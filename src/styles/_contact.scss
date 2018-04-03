@@ -18,6 +18,6 @@ section#contact {
     button#submit-button {
         background-color: $main-color;
         border: none;
-        text-shadow: 1px 1px rgba($color: #000000, $alpha: 0.8);
+        text-shadow: 0 .3rem .6rem rgba($color: #000000, $alpha: 0.8);
     }
 }

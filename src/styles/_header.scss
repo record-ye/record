@@ -1,15 +1,14 @@
-header#home{
+header#home {
     height: 100vh;
     background-image: url('../images/bg.jpeg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
-    padding-top: 64px;
+    padding-top: 6.4rem;
     position: relative;
     color: $main-text-color;
-      
     div.front-text-holder {
-        height: calc(100vh - 64px);
+        height: calc(100vh - 6.4rem);
         display: flex;
         position: relative;
         div.image {
