@@ -29,8 +29,8 @@ $(function () {
       $('#main-nav-bar').removeClass('active');
     }
 
-  // big logo paralax 
-  $('.front-text-holder').css('top', -(window.pageYOffset/3.4));
+    // big logo paralax 
+    $('.front-text-holder').css('top', -(window.pageYOffset / 3.4));
 
   });
 
@@ -52,7 +52,7 @@ $(function () {
   // when click on the nav click the button
 
   $('ul.navbar-nav').on('click', function () {
-    if($('.navbar-toggler').is(':visible')) {
+    if ($('.navbar-toggler').is(':visible')) {
       $('.navbar-toggler').click();
     }
   });
