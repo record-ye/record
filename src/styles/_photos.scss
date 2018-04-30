@@ -1,55 +1,67 @@
 section#photos {
-    position: relative;
-    padding: 5rem 0;
-    background-color: $sec-body-color;
-    div#photos-header {
-        text-align: center;
-        text-transform: uppercase;
-        h3 {
-            font-weight: 600;
-        }
+  position: relative;
+  padding: 5rem 0;
+  background-color: $sec-body-color;
+  div#photos-header {
+    text-align: center;
+    text-transform: uppercase;
+    h3 {
+      font-weight: 600;
     }
-    div#photos-row {
-        div#photos-holder {
-            ul {
-                width: 100%;
-                margin: 0;
-                padding: 0;
-                list-style: none;
-                display: inline-flex;
-                overflow: hidden;
-                height: 20rem;
-                &:hover li {
-                    width: 5%;
-                }
-                li {
-                    transition: 400ms all;
-                    width: 20%;
-                    height: 100%;
-                    background-size: cover;
-                    background-position: center center;
-                    background-repeat: no-repeat;
-                    cursor: pointer;
-                    &:hover {
-                        width: 80%;
-                    }
-                    &:nth-of-type(1) {
-                        background-image: url('../images/1.jpg');
-                    }
-                    &:nth-of-type(2) {
-                        background-image: url('../images/2.jpg');
-                    }
-                    &:nth-of-type(3) {
-                        background-image: url('../images/3.jpg');
-                    }
-                    &:nth-of-type(4) {
-                        background-image: url('../images/4.jpg');
-                    }
-                    &:nth-of-type(5) {
-                        background-image: url('../images/5.jpg');
-                    }
-                }
-            }
+  }
+  div#photos-row {
+    div#photos-holder {
+      ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: inline-flex;
+        overflow: hidden;
+        height: 20rem;
+        &:hover li {
+          width: 5%;
         }
+        li {
+          transition: 400ms all;
+          width: 12.5%;
+          height: 100%;
+          background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
+          cursor: pointer;
+          &:hover {
+            width: 80%;
+          }
+          &:nth-of-type(1) {
+            background-image: url('../images/1.jpg');
+          }
+          &:nth-of-type(2) {
+            background-image: url('../images/2.jpg');
+          }
+          &:nth-of-type(3) {
+            background-image: url('../images/3.jpg');
+          }
+          &:nth-of-type(4) {
+            background-image: url('../images/4.jpg');
+          }
+          &:nth-of-type(5) {
+            background-image: url('../images/5.jpg');
+          }
+          &:nth-of-type(6) {
+            background-image: url('../images/6.jpg');
+          }
+          &:nth-of-type(7) {
+            background-image: url('../images/7.jpg');
+          }
+          &:nth-of-type(8) {
+            background-image: url('../images/8.jpg');
+          }
+          &:nth-of-type(9) {
+            background-image: url('../images/9.jpg');
+          }
+        }
+      }
     }
+  }
 }
