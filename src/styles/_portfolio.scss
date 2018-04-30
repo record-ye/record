@@ -1,95 +1,122 @@
 section#portfolio {
-    position: relative;
-    padding: 5rem 0;
-    color: $main-text-color;
-    background-color: $sec-body-color;
-    background-image: url('../images/bg2.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    div#portfolio-header {
-        text-align: center;
-        text-transform: uppercase;
-        h3 {
-            font-weight: 600;
-        }
+  position: relative;
+  padding: 5rem 0;
+  color: $main-text-color;
+  background-color: $sec-body-color;
+  background-image: url('../images/bg2.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  div#portfolio-header {
+    text-align: center;
+    text-transform: uppercase;
+    h3 {
+      font-weight: 600;
     }
-    div#portfolio-text {
-        p {
-            margin-bottom: 2rem;
-        }
+  }
+  div#portfolio-text {
+    p {
+      margin-bottom: 2rem;
     }
-    div#selector {
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            li {
-                border: .1rem solid $sec-color;
-                padding: .7rem 1rem;
-                font-size: 1.25rem;
-                font-weight: 300;
-                background-color: rgba($color: #000000, $alpha: .2);
-                transition: 300ms all;
-                cursor: pointer;
-                &.active {
-                    border-bottom: .3rem solid $main-color;
-                }
-            }
-            @media (min-width: 576px) {
-                li {
-                    padding: .7rem 2rem;
-                }
-            }
+  }
+  div#selector {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      li {
+        border: .1rem solid $sec-color;
+        padding: .7rem 1rem;
+        font-size: 1.25rem;
+        font-weight: 300;
+        background-color: rgba($color: #000000, $alpha: .2);
+        transition: 300ms all;
+        cursor: pointer;
+        &.active {
+          border-bottom: .3rem solid $main-color;
         }
+      }
+      @media (min-width: 576px) {
+        li {
+          padding: .7rem 2rem;
+        }
+      }
     }
-    div#portfolio-grid {
+  }
+  div#portfolio-grid {
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    div.grid-item {
+      width: 45%;
+      height: 10rem;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      margin: 0;
+      border-radius: .2rem;
+      &:nth-of-type(1) {
+        background-image: url('../images/i1.jpg');
+      }
+      &:nth-of-type(2) {
+        background-image: url('../images/i2.jpg');
+      }
+      &:nth-of-type(3) {
+        background-image: url('../images/i3.jpg');
+      }
+      &:nth-of-type(4) {
+        background-image: url('../images/i4.jpg');
+      }
+      &:nth-of-type(5) {
+        background-image: url('../images/i5.jpg');
+      }
+      &:nth-of-type(6) {
+        background-image: url('../images/i6.jpg');
+      }
+      &:nth-of-type(7) {
+        background-image: url('../images/i7.jpg');
+      }
+      &:nth-of-type(8) {
+        background-image: url('../images/i8.jpg');
+      }
+      &:nth-of-type(9) {
+        background-image: url('../images/i9.jpg');
+      }
+      &:nth-of-type(10) {
+        background-image: url('../images/i10.jpg');
+      }
+      &:nth-of-type(11) {
+        background-image: url('../images/i11.jpg');
+      }
+      &:nth-of-type(12) {
+        background-image: url('../images/5.jpg');
+      }
+      &:nth-of-type(13) {
+        background-image: url('../images/2.jpg');
+      }
+      &:nth-of-type(14) {
+        background-image: url('../images/4.jpg');
+      }
+      p {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 3rem;
         width: 100%;
-        height: auto;
-        padding-top: 3rem;
-        div.grid-item {
-            width: 45%;
-            height: 10rem;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
-            margin: .1rem;
-            border-radius: .2rem;
-            &:nth-of-type(1) {
-                background-image: url('../images/1.jpg');
-            }
-            &:nth-of-type(2) {
-                background-image: url('../images/2.jpg');
-            }
-            &:nth-of-type(3) {
-                background-image: url('../images/3.jpg');
-            }
-            &:nth-of-type(4) {
-                background-image: url('../images/4.jpg');
-            }
-            &:nth-of-type(5) {
-                background-image: url('../images/5.jpg');
-            }
-            p {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                height: 3rem;
-                width: 100%;
-                background-color: rgba($color: #000000, $alpha: .4);
-                text-align: center;
-                overflow: hidden;
-                margin: 0;
-            }
-        }
-        @media (min-width: 576px) {
-            div.grid-item {
-                width: 22%;
-                margin: .5rem;
-            }
-        }
+        background-color: rgba($color: #000000, $alpha: .4);
+        text-align: center;
+        overflow: hidden;
+        margin: 0;
+      }
     }
+    @media (min-width: 576px) {
+      div.grid-item {
+        width: 22%;
+        margin: .5rem;
+      }
+    }
+  }
 }
