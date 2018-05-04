@@ -19,3 +19,9 @@ body {
     background-color: $main-body-color;
     //font-size: 1.6rem;
 }
+
+a:active,
+a:link,
+a:visited {
+    color: inherit;
+}
