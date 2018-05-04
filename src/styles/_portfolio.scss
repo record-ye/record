@@ -58,47 +58,52 @@ section#portfolio {
       background-position: center center;
       margin: 0;
       border-radius: .2rem;
+
+      img {
+        max-width: 100%;
+      }
+
       &:nth-of-type(1) {
-        background-image: url('../images/i1.jpg');
+        // background-image: url('../images/i1.jpg');
       }
       &:nth-of-type(2) {
-        background-image: url('../images/i2.jpg');
+        // background-image: url('../images/i2.jpg');
       }
       &:nth-of-type(3) {
-        background-image: url('../images/i3.jpg');
+        // background-image: url('../images/i3.jpg');
       }
       &:nth-of-type(4) {
-        background-image: url('../images/i4.jpg');
+        // background-image: url('../images/i4.jpg');
       }
       &:nth-of-type(5) {
-        background-image: url('../images/i5.jpg');
+        // background-image: url('../images/i5.jpg');
       }
       &:nth-of-type(6) {
-        background-image: url('../images/i6.jpg');
+        // background-image: url('../images/i6.jpg');
       }
       &:nth-of-type(7) {
-        background-image: url('../images/i7.jpg');
+        // background-image: url('../images/i7.jpg');
       }
       &:nth-of-type(8) {
-        background-image: url('../images/i8.jpg');
+        // background-image: url('../images/i8.jpg');
       }
       &:nth-of-type(9) {
-        background-image: url('../images/i9.jpg');
+        // background-image: url('../images/i9.jpg');
       }
       &:nth-of-type(10) {
-        background-image: url('../images/i10.jpg');
+        // background-image: url('../images/i10.jpg');
       }
       &:nth-of-type(11) {
-        background-image: url('../images/i11.jpg');
+        // background-image: url('../images/i11.jpg');
       }
       &:nth-of-type(12) {
-        background-image: url('../images/5.jpg');
+        // background-image: url('../images/5.jpg');
       }
       &:nth-of-type(13) {
-        background-image: url('../images/2.jpg');
+        // background-image: url('../images/2.jpg');
       }
       &:nth-of-type(14) {
-        background-image: url('../images/4.jpg');
+        // background-image: url('../images/4.jpg');
       }
       p {
         position: absolute;
